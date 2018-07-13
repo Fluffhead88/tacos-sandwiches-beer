@@ -82,7 +82,7 @@ render() {
     return(
       <div key={sandwich._id}>
         <p>Name: {sandwich.name}</p>
-        <p>Ingredients: {sandwich.ingredients}</p>
+        <p>Ingredients: {sandwich.ingredients.join(", ")}</p>
       </div>
     );
   })

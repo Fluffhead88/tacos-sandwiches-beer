@@ -31,7 +31,7 @@ render() {
     console.log('this is it', beer);
     return(
       <div key={beer._id}>
-        <p>Name: {beer.name}</p>
+        <p>Name: {beer.beerName}</p>
         <p>Type: {beer.type}</p>
         <p>Where it belongs: {beer.whereItBelongs}</p>
       </div>
